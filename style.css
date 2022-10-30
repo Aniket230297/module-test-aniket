@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 1800px;
+}
+
+/*navbar coding start */
+.navbar {
+    width: 1120px;
+    height: 35px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    margin: 10px 0px 0px 0px;
+    color: #181717;
+    
+}
+
+.menu {
+    width: 70%;
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.menu ul li a {
+    text-decoration: solid;
+    color: #181717;
+    font-family: DM sans;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+/*navbar coding end*/
+
+/*container-one coding start*/
+.container-one {
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+
+.one {
+    width: 20%;
+    height: 120px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.one h1 {
+    font-size: 30px;
+
+}
+
+.two {
+    width: 40%;
+    height: 100px;
+    margin-top: 180px;
+    margin-left: 150px;
+    color: #606060;
+
+}
+
+.two h2 {
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    font-family: 'DM Sans';
+}
+
+
+/*container-two coding end*/
+
+/* project coding start*/
+.project {
+    width: 100%;
+    height: 1300px;
+    margin-top: 50px;
+
+}
+
+/* start of project one */
+
+.project-one {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    font-family: 'Inter';
+
+}
+
+.project-one-text {
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+
+.project-one-text h2 {
+    font-size: 18px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+}
+
+.project-one-text h3 {
+    color: #606060;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.project-one-text h4 {
+    color: #606060;
+    font-weight: 300;
+    font-size: 14px;
+
+
+}
+
+.project-one-text-line h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.project-one-text-line h3 a {
+    text-decoration-line: underline;
+
+}
+
+.project-one-img {
+    width: 40%;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.project-one-img img {
+    width: 100%;
+    height: 300px;
+}
+
+/*end of one project code */
+
+/*start of two project code*/
+
+
+.project-two {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.project-two-text {
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+
+.project-two-text h2 {
+    font-size: 18px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+}
+
+.project-two-text h3 {
+    color: #606060;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.project-two-text h4 {
+    color: #606060;
+    font-weight: 300;
+    font-size: 14px;
+
+
+}
+
+.project-two-text-line h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 140px;
+}
+
+.project-two-text-line h3 a {
+    text-decoration-line: underline;
+
+}
+
+.project-two-img {
+    width: 40%;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.project-two-img img {
+    width: 100%;
+    height: 300px;
+}
+
+/* end of project two code */
+
+/*start of project three code */
+.project-three {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.project-three-text {
+    width: 40%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+
+.project-three-text h2 {
+    font-size: 18px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+}
+
+.project-three-text h3 {
+    color: #606060;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.project-three-text h4 {
+    color: #606060;
+    font-weight: 300;
+    font-size: 14px;
+
+
+}
+
+.project-three-text-line h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 150px;
+}
+
+.project-three-text-line h3 a {
+    text-decoration-line: underline;
+
+}
+
+
+.project-three-img {
+    width: 40%;
+    height: 300px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.project-three-img img {
+    width: 100%;
+    height: 300px;
+}
+
+/*project coding end*/
+
+hr {
+    border: 1.5px solid #181717;
+    width: 100%;
+    margin-left: 6%;
+    margin-right:25%;
+}
+
+.footer-one h3{
+    margin-left: 70px
+    
+}
+
+.social ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -25px;
+}
+
+.social ul li a {
+    text-decoration: solid;
+    color: #181717;
+    font-family: DM sans;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+
+.social ul li a {
+    text-decoration: solid;
+    color: #181717;
+    font-family: DM sans;
+    font-size: 17px;
+    font-weight: 500;
+}
